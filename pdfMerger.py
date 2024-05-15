@@ -1,9 +1,15 @@
+try:
+    import tk
+    import PyPDF2
+    
+except ImportError:
+    _ = os.system('pip install tk' if os.name == 'nt' else 'pip3 install tk')
+    _ = os.system('pip install PyPDF2' if os.name == 'nt' else 'pip3 install PyPDF2')
+
 from tkinter import filedialog
 from tkinter import *
 import tkinter as tk
-from time import sleep as s
 import PyPDF2
-import os
 
 root = tk.Tk()
 root.withdraw()
