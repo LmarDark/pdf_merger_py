@@ -5,7 +5,7 @@
 
 ## Como rodar o projeto 👣
 
-**<p>- Primeiro faça o clone do repositório (git clone https://github.com/LmarDark/auto_clicker_py);</p>**
+**<p>- Primeiro faça o clone do repositório (git clone https://github.com/LmarDark/pdf_merger_py);</p>**
 **<p>- Depois execute com "python.exe pdfMerger.py" no terminal.</p>**
 
 ---
